@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package dslVersion="1.0.0.0" 
-        Id="098657e7-3d01-4f8b-8b50-204957a25555" 
-        solutionId="098657e7-3d01-4f8b-8b50-204957a25555" 
-        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
-        name="SharePointProject2"
-        sharePointProductVersion="15.0">
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="098657e7-3d01-4f8b-8b50-204957a25555" solutionId="098657e7-3d01-4f8b-8b50-204957a25555" resetWebServer="false" sharePointProductVersion="15.0" name="SharePointProject2" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="c8ed777e-60bf-46f7-b409-71fc8f5846e5" />
+  </features>
 </package>
