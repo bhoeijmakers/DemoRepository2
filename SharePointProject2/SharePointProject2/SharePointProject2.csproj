@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebPart1\WebPart1.cs" />
+    <Compile Include="WebPart2\WebPart2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Features\Feature1\Feature1.feature">
@@ -69,6 +70,10 @@
       <SharePointProjectItemId>{1672c0bb-60cb-481e-ad5d-36db65a1c371}</SharePointProjectItemId>
     </None>
     <None Include="WebPart1\WebPart1.webpart" />
+    <None Include="WebPart2\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{87ef62c6-459c-49f8-a142-fd963505fbc2}</SharePointProjectItemId>
+    </None>
+    <None Include="WebPart2\WebPart2.webpart" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -76,6 +81,7 @@
       <DependentUpon>Feature1.feature</DependentUpon>
     </Content>
     <Content Include="WebPart1\Elements.xml" />
+    <Content Include="WebPart2\Elements.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
